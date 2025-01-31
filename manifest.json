@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Network Override Extension",
+    "version": "0.1",
+    "description": "Intercepts requests and overrides responses with static JSON. Works in Chrome and Firefox.",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "<all_urls>",
+      "storage"
+    ],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Override Rules"
+    },
+    "applications": {
+      "gecko": {
+        "id": "network-override@example.com"
+      }
+    }
+  }
+  
