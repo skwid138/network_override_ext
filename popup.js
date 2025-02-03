@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
         checkbox.addEventListener("change", function() {
           chrome.runtime.sendMessage({
-            action: "toggleRule",
+          action: "toggleRule",
             ruleId: rule.id,
             enabled: checkbox.checked
           }, function(response) {
