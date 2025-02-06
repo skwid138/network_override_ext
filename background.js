@@ -33,6 +33,15 @@ const overrideRules = [
           "description": "Media Mix Modeling Description",
           "date_created": "2025-01-08T15:31:44.785712Z",
           "date_modified": "2025-01-08T15:31:44.792650Z"
+        },
+        {
+          "id": 21,
+          "type": "Trendspotter",
+          "name": "Trendspotter Name",
+          "url": "https://example.com/trendspotter",
+          "description": "Trendspotter Description",
+          "date_created": "2025-01-08T15:31:44.785712Z",
+          "date_modified": "2025-01-08T15:31:44.792650Z"
         }
       ]),
       enabled: true
